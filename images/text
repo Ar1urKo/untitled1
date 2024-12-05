@@ -1,0 +1,106 @@
+#slider-4 > div >  div > div.title {
+    width: 1022px;
+    height: 47px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #161717;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#slider-4 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#slider-4 .title-slided {
+
+    /* Двери одностворчатые */
+
+    width: 270px;
+    height: 24px;
+
+    /* H4 */
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    /* or 24px */
+    text-align: center;
+
+    /* H1 */
+    color: #161717;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#slider-4 .slide-subtitle {
+    /* Lorem ipsum dolor sit amet consectetur. Urna nunc egestas quis. */
+
+    width: 270px;
+    height: 48px;
+
+    /* H4 */
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    /* or 24px */
+    text-align: center;
+
+    /* Text */
+    color: #808285;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#slider-4 {
+    background: #F4EDDE;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#slider-4 > div {
+    position: relative;
+}
+
+#slider-4 > div > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+
+#slider-4 .swiper-button-next svg,
+#slider-4 .swiper-button-prev svg {
+    width: 44px !important;
+    height: 44px !important;
+}
+
+#slider-4 .swiper-button-next,
+#slider-4 .swiper-button-prev {
+    width: 44px !important;
+    height: 44px !important;
+}
